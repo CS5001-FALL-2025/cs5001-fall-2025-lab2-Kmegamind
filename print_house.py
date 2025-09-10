@@ -2,7 +2,7 @@
     CS 5001
     Lab 1
     Exercise 1
-    Name:
+    Name: Yue
 '''
 
 '''
@@ -22,7 +22,11 @@ def main():
     print('  + +  ')
     print(' +   + ')
     # YOUR CODE HERE
-
+    print('+-----+')
+    print('| .-. |')
+    print('| | | |')
+    print('+-+-+-+')
+  
 
 if __name__ == '__main__':
     main()
