@@ -21,7 +21,11 @@ Your alarm will expire at 3.
 '''
 
 def main():
-    # YOUR CODE HERE
+    current_time = int(input("What time is it? "))
+    wait_time = int(input("How long until your alarm expires? "))
+    alarm_time = (current_time + wait_time) % 24
+    print(f"Your alarm will expire at {alarm_time}.")
+
 
 if __name__ == '__main__':
     main()

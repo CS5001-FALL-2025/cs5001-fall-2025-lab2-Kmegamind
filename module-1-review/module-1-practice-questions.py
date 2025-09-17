@@ -163,7 +163,10 @@ print("Example output: John Q. Smith")
 print()
 
 # Write your code here:
-
+first_name = "John"
+middle_initial = "Q"
+last_name = "Smith"
+print(first_name + " " + middle_initial + ". " +last_name)
 
 
 
@@ -177,7 +180,9 @@ print("Expected output: Hello Sarah, you are 20 years old!")
 print()
 
 # Write your code here:
-
+user_name = "Sarah"
+user_age = 20
+print(f"Hello {user_name}, you are {user_age} years old!")
 
 
 
@@ -191,8 +196,9 @@ print("Example: 'The book To Kill a Mockingbird was written by Harper Lee.'")
 print()
 
 # Write your code here:
-
-
+title = "game of Thrones"
+author = "George R.R. Martin"
+print(f"The book {title} was written by {author}.")
 
 
 # =============================================================================
@@ -212,7 +218,17 @@ print()
 
 # Write your code here:
 
+num1 = 24
+num2 = 6
+add = num1 +num2
+minus = num1 - num2
+multiply = num1 * num2
+divide = num1 / num2
 
+print(f"num1 + num2 is {add}")
+print(f"num1 - num2 is {minus}")
+print(f"num1 * num2 is {multiply}")
+print(f"num1 / num2 is {divide}")
 
 
 print("=" * 30)
@@ -228,7 +244,11 @@ print("Expected: Tip: $8.19, Total: $53.69")
 print()
 
 # Write your code here:
-
+bill_amount = 45.50
+tip_pct = 0.18
+tip_amount = bill_amount * tip_pct
+total_bill = bill_amount + tip_amount
+print(f"tip amount: ${tip_amount:.2f}, Total: ${total_bill:.2f}")
 
 
 
@@ -245,7 +265,12 @@ print("Format: 'Student: Alex Johnson | Scores: 87, 92, 85 | Average: 88.0'")
 print()
 
 # Write your code here:
-
+student_name = "Alex Johnson"
+score1 = 87
+score2 = 92
+score3 = 85
+average = (score1 + score2 + score3)/3
+print(f"Student: {student_name} | Scores: {score1}, {score2}, {score3} | Average: {average:.1f}")
 
 
 
@@ -262,8 +287,24 @@ print("- Print a formatted receipt")
 print()
 
 # Write your code here:
-
-
+item1 = "Apples"
+item2 = "Bread"
+item3 = "Milk"
+price1 = 3.99
+price2 = 2.50
+price3 = 4.25
+subtotal = price1 + price2 + price3
+tax = 0.085 * subtotal
+total = tax + subtotal
+print("------------Receipt----------")
+print(f"{item1:<15}${price1:>7.2f}")
+print(f"{item2:<15}${price2:>7.2f}")
+print(f"{item3:<15}${price3:>7.2f}")
+print("-"*27)
+print(f"{'Subtotal':<15}${subtotal:>7.2f}")
+print(f"{'Tax(8.5%)':<15}${tax:>7.2f}")
+print("-"*27)
+print(f"{'Total':<15}${total:>7.2f}")
 
 
 # =============================================================================
@@ -282,8 +323,9 @@ print("Expected: 75°F is equal to 23.89°C")
 print()
 
 # Write your code here:
-
-
+Fahrenheit = 75
+Celsius = (Fahrenheit - 32) * 5/9
+print(f"{Fahrenheit}°F is equal to {Celsius:.2f}°C")
 
 
 print("=" * 30)
@@ -299,7 +341,11 @@ print()
 
 # Write your code here:
 
-
+hours = 3847 // 3600
+remaining_second = 3847 - hours * 3600
+minutes = remaining_second // 60
+seconds = remaining_second - minutes * 60
+print(f"{hours} hours, {minutes} minutes, {seconds} seconds")
 
 
 print("=" * 30)
@@ -314,7 +360,13 @@ print()
 
 # Write your code here:
 
+adjective = "small"      
+noun = "dog"         
+verb = "crying"          
+place = "Burger King"      
+number = 2300              
 
+print(f"Once upon a time, a {adjective} {noun} was {verb} in {place}, then another {number} {noun}s appeared and started singing!")
 
 
 print("\n" + "=" * 50)
