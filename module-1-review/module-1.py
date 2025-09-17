@@ -9,7 +9,8 @@ print(name)    # Output: Alice
 
 
 # Challenge: Create a variable with a value and print it.
-
+name = "Yue"
+print(name)
 
 
 
@@ -31,6 +32,20 @@ print("Remainder:", remainder)         # Output: 1
 
 # Challenge: Perform arithmetic operations on two numbers and print the results.
 
+a = 188
+b = 2025
+sum_value = a + b
+difference = a - b
+product = a * b
+quotient = a / b
+remainder = a % b
+print("a=", a)
+print("b=", b)
+print("sum:", sum_value)
+print("difference:", difference)
+print("product:", product)
+print("quotient:", quotient)
+print("remainder:", remainder)
 
 
 # String Concatenation
@@ -43,6 +58,13 @@ print(full_greeting)   # Output: Hello, Alice!
 
 # Challenge: Concatenate three strings and print the result.
 
+first_name = "Amy"
+middle_name = "Grace"
+last_name = "Johnson"
+full_name = first_name + " " + middle_name + " " + last_name
+print(full_name)
+
+
 
 
 # Combining variables and expressions
@@ -54,6 +76,12 @@ message = "The sum of " + str(num1) + " and " + str(num2) + " is " + str(result)
 print(message)  # Output: The sum of 8 and 2 is 10
 
 # Challenge: Add two numbers and print the result using string concatenation.
+
+num1 = 1122
+num2 = 3456
+result = num1 + num2
+message = "The sum of " + str(num1) + "and " + str(num2) + "is " + str(result)
+print(message)
 
 
 
@@ -109,6 +137,17 @@ print("Is graduated (boolean):", is_graduated)
 
 # Challenge: Create one variable of each data type and print them with labels.
 
+class_no = 5001
+class_pct = 0.5
+class_day = "Monday"
+is_cs_class = True
+is_math_class = False
+class_info = class_no, class_pct, class_day, is_cs_class
+print("class number: ", class_no, "type:", type(class_no) )
+print("class percentage: ", class_pct, "type: ", type(class_pct))
+print("class_day: ", class_day, "type: ", type(class_day))
+print("cs_class? : ", is_cs_class, "type: ", type(is_cs_class))
+
 
 
 
@@ -135,6 +174,12 @@ print("Course code:", course_code)
 
 # Challenge: Create 3 variables with descriptive names for a student record.
 
+student_name = "John Smith"
+student_age = 30
+student_add = "22 Avenue"
+print("Student name:", student_name)
+print("Student age:", student_age)
+print("Student address:", student_add)
 
 
 
@@ -164,7 +209,10 @@ print("(2 + 3) * (4 ** 2 - 1) =", calculation_with_parens)  # = 5 * 15 = 75
 
 # Challenge: Calculate the area of a triangle: (base * height) / 2
 
-
+base = 10
+height = 12
+area = (base * height)/2
+print("The area of the triangle is:", area)
 
 
 # Modern String Formatting with f-strings
@@ -194,7 +242,11 @@ area_message = f"A rectangle with width {width} and height {height} has area {wi
 print("Calculation:", area_message)
 
 # Challenge: Use f-strings to create a message about a book with title, author, and page count.
-
+title = "Harry Potter"
+author = "J.K. Rowling"
+page_count = 4100
+book_message = f"{title} is written by {author} and has {page_count} pages"
+print("book message:", book_message)
 
 
 
@@ -224,7 +276,9 @@ print(f"You were probably born in {birth_year}")
 
 # Challenge: Create a program that calculates someone's birth year from their age.
 
-
+age = int(input("what is your age? "))
+birth_year = 2025 - age
+print(f"Your birth year is {birth_year}")
 
 
 # Real-World Example: Restaurant Bill Calculator
@@ -269,6 +323,39 @@ print(f"TOTAL:        ${total:>6.2f}")
 
 # Challenge: Create a shopping receipt for 4 items with tax and discount.
 
+# shopping items
+chips = 8.99
+shampoo = 24.50
+turkey_breast = 8.99
+lactose_free_milk = 3.25
+
+# Calculate subtotal
+subtotal = chips + shampoo + turkey_breast + lactose_free_milk
+
+# Calculate tax
+tax = subtotal * 0.065
+
+# Calutate discount
+discount = subtotal * 0.2
+
+# Calculate total
+total = subtotal + tax - discount
+
+# receipt
+print("\n---------- RECEIPT ----------")
+print(f"chips:         ${chips:>6.2f}")
+print(f"shampoo:       ${shampoo:>6.2f}")
+print(f"turkey_breast: ${turkey_breast:>6.2f}")
+print(f"lactose_free_milk: ${lactose_free_milk:>6.2f}")
+print("-" * 20)
+print(f"subtotal:      ${subtotal:>6.2f}")
+print(f"tax:           ${tax:>6.2f}")
+print(f"discount:      ${discount:>6.2f}")
+print("-" * 20)
+print(f"total:         ${total:>6.2f}")
+
+
+
 
 
 
@@ -309,6 +396,18 @@ else:
 print(f"Letter Grade: {letter_grade}")
 
 # Challenge: Calculate GPA for 4 courses with different credit hours.
+
+course1 = 100
+course2 = 98
+course3 = 96
+course4 = 94
+credit1 = 4
+credit2 = 3
+credit3 = 2
+credit4= 1
+total_credit = credit1 + credit2 + credit3 + credit4
+gpa = (course1 * credit1 + course2 * credit2 + course3 * credit3 + course4 * credit4) / total_credit
+print(f"your GPA is: {gpa:.2f}")
 
 
 

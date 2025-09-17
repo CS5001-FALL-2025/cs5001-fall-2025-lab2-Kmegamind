@@ -31,8 +31,9 @@ print("Expected output: 25, Boston")
 print()
 
 # Write your code here:
-
-
+age = 25
+city = 'Boston'
+print(age, city, sep=', ')
 
 
 print("=" * 30)
@@ -45,6 +46,12 @@ print()
 
 # Write your code here:
 
+first_name = "Amy"
+last_name = "Apple"
+student_id = 1234567
+print(first_name)
+print(last_name)
+print(student_id)
 
 
 
@@ -58,8 +65,9 @@ print("Expected output: 68")
 print()
 
 # Write your code here:
-
-
+temperature = 72
+temperature = 68
+print(temperature)
 
 
 # =============================================================================
@@ -80,8 +88,14 @@ print("Expected output: 19, 11, 60, 3.75, 3")
 print()
 
 # Write your code here:
-
-
+num1 = 15
+num2 = 4
+sum_result = num1 + num2
+diff_result = num1 - num2
+prod_result = num1 * num2
+quot_result = num1 / num2
+rem_result = num1 % num2
+print(sum_result, diff_result, prod_result, quot_result, rem_result, sep=", ")
 
 
 print("=" * 30)
@@ -94,7 +108,10 @@ print("Expected output: 96")
 print()
 
 # Write your code here:
-
+length = 12
+width = 8
+area = length * width
+print(area)
 
 
 
@@ -109,7 +126,11 @@ print()
 
 # Write your code here:
 
-
+initial_amount = 50
+item_cost = 12.99
+total_cost = 3 * item_cost
+remaining_amount = initial_amount - total_cost
+print(remaining_amount)
 
 
 print("=" * 30)
@@ -122,7 +143,9 @@ print("Expected output: 88.0")
 print()
 
 # Write your code here:
-
+total = 85 + 92 + 78 + 96 + 89
+average = total / 5
+print(average)
 
 
 
