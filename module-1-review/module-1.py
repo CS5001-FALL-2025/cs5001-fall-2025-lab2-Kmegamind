@@ -436,6 +436,12 @@ print(f"Object falls {distance:.1f} meters in {time} seconds")
 
 # Challenge: Calculate the volume of a cylinder (π * r² * h).
 
+PI = 3.14159
+radius = 5
+height = 10
+volume_cylinder = PI * (radius ** 2) * height
+print(f"the volume of cylinder is: {volume_cylinder: .2f}")
+
 
 
 
@@ -466,7 +472,16 @@ print(f"Total cost: ${total:.2f}")
 
 # Challenge: Write a well-commented program that converts temperature.
 
+"""
+To convert Celsius (°C) to Fahrenheit (°F), 
+use the formula °F = (°C * 1.8) + 32. 
+First, multiply the Celsius temperature by 1.8 (or 9/5) and 
+then add 32 to that product to get the temperature in Fahrenheit
 
+"""
+Celsius = 20      #Celsius temperature
+Fahrenheit = Celsius * 1.8 + 32    #convert Celsius to Fahrenheit
+print(f"Celsius converts to Fahrenheit is: {Fahrenheit:.1f}")
 
 
 # Type Hints for Code Readability
@@ -549,6 +564,11 @@ print(report)
 
 # Challenge: Create variables with type hints for a book record (title, author, pages, price, in_stock).
 
+title : str = "Harry Potter"
+author : str = "J.K Rowling"
+pages: int = 4100
+price : float = 82.8
+in_stock : bool = True
 
 
 

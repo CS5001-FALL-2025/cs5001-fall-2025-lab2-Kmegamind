@@ -14,8 +14,8 @@ Instructions:
 
 print("=" * 40)
 print("MODULE 1 QUIZ")
-print("Name: ___________________")
-print("Date: ___________________")
+print("Name: Yue Li")
+print("Date: Sep 17")
 print("=" * 40)
 
 # =============================================================================
@@ -30,21 +30,21 @@ print("   A) count == 10")
 print("   B) count = 10")
 print("   C) 10 = count")
 print("   D) count := 10")
-print("   Answer: ___")
+print("   Answer: B")
 
 print("\n2. What is the output of: print(15 % 4)")
 print("   A) 3.75")
 print("   B) 3")
 print("   C) 4")
 print("   D) 15")
-print("   Answer: ___")
+print("   Answer: B")
 
 print("\n3. Which operator is used for string concatenation in Python?")
 print("   A) *")
 print("   B) &")
 print("   C) +")
 print("   D) |")
-print("   Answer: ___")
+print("   Answer: C")
 
 print("\n4. What does the following code output?")
 print("   x = 5")
@@ -54,14 +54,14 @@ print("   A) 16")
 print("   B) 11")
 print("   C) 13")
 print("   D) 10")
-print("   Answer: ___")
+print("   Answer: B")
 
 print("\n5. To include a number in a string concatenation, you must:")
 print("   A) Use the int() function")
 print("   B) Use the str() function")
 print("   C) Use the float() function")
 print("   D) Nothing special is needed")
-print("   Answer: ___")
+print("   Answer: B")
 
 # =============================================================================
 # SHORT ANSWER QUESTIONS 
@@ -71,16 +71,16 @@ print("\n\nSHORT ANSWER: Answer in 1-2 complete sentences")
 print("-" * 50)
 
 print("\n6. Explain the difference between the = operator and the == operator in Python.")
-print("   Answer: ________________________________________________")
-print("   _____________________________________________________")
+print("   Answer: = operator is for assignment")
+print("   The == is for comparison (When the two variables are equal)")
 
 print("\n7. What is the modulus operator (%) used for? Give an example.")
-print("   Answer: ________________________________________________")
-print("   _____________________________________________________")
+print("   Answer: modulus operator (%) is to calculate the remainder of a division")
+print("   15 % 2 = 1")
 
 print("\n8. Why do we need to use str() when concatenating numbers with strings?")
-print("   Answer: ________________________________________________")
-print("   _____________________________________________________")
+print("   Answer: str() converts numbers to string format so they can be joined together.")
+print("   Different types of variables can not be concatenated directly. ")
 
 # =============================================================================
 # CODING QUESTIONS 
